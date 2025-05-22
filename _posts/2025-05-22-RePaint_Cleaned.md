@@ -65,7 +65,7 @@ noising Diffusion Probabilistic Models. (CVPR 2022 Paper)
 <span class="gray-medium">+ 해당 논문은 Section 3. Preliminaries에서 DDPM에 대해 설명하지만 간략히 다루므로 DDPM에 대해 미리 공부하고 읽는 것이 좋습니다.</span>
 Paper - https://arxiv.org/pdf/2201.09865
 Github - https://github.com/andreas128/RePaint
-<div align="center"><img src="repaint.png" /></span><span class="img-caption">RePaint를 이용하여 샘플링한 이미지</span><div class="divider"></div>
+<div align="center"><img src="repaint.png" /></div><span class="img-caption">RePaint를 이용하여 샘플링한 이미지</span><div class="divider"></div>
 
 # Abstract
 Free-form Inpainting은 이미지에서 임의의 binary mask로 특정된 영역을 채워 넣는 task이다. 이미 존재하는 대부분의 접근들은 특정 분포의 mask에 대해서만 학습한다. 이러한 학습 방법으로 인해 새로운 mask에 대한 일반화가 제한되어 버린다. 게다가, pixel-wise loss와 perceptual loss를 이용하여 학습을 시킨다면 가려진 영역을 의미론적으로 의미 있게 채우는 대신 단순히 주변의 질감을 확장하여 채워버린다. 이러한 문제에 대해 다루기 위해 이 연구에선 극한의 형태 mask도 다룰 수 있도록 DDPM을 기반으로 한 Inpainting 접근 방법인 RePaint를 제시한다.(이 논문에서 이미지 생성 과정은 사전 학습된 unconditional DDPM을 기반으로 수행된다.) 생성 과정을 condition하기 위해, 주어진 이미지 정보를 이용해 가려지지 않은 영역을 샘플링하는 방식으로 역확산 반복 과정만을 수정한다.(이 부분이 이해가 안 될 수 있는데, Section 4.1에서 더 자세히 설명함.) 이 방법은 본래의 DDPM에 condition을 추가하지 않고 구조도 수정하지 않으므로 어떠한 Inpainting 형식에도 다양하고 좋은 퀄리티의 이미지를 생성해낸다.

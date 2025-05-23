@@ -63,7 +63,9 @@ RePaint: Inpainting using Denoising Diffusion Probabilistic Models. (CVPR 2022 P
 
 <span class="gray-medium">+ 해당 논문은 Section 3. Preliminaries에서 DDPM에 대해 설명하지만 간략히 다루므로 DDPM에 대해 미리 공부하고 읽는 것이 좋습니다.</span>
 Paper - https://arxiv.org/pdf/2201.09865
+
 Github - https://github.com/andreas128/RePaint
+
 <div align="center"><img src="repaint.png" /></div>
 <span class="img-caption">RePaint를 이용하여 샘플링한 이미지</span>
 <div class="divider"></div>

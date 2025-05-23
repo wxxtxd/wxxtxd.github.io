@@ -61,9 +61,8 @@ RePaint: Inpainting using Denoising Diffusion Probabilistic Models. (CVPR 2022 P
 <span class="gray-medium">Authors: Andreas Lugmayr, Martin Danelljan, Andres Romero, Fisher Yu, Radu Timofte, Luc Van Gool</span>
 <span class="gray-medium">Lab: Computer Vision Lab ETH Zurich, Switzerland</span>
 
-<span class="gray-medium">+ 해당 논문은 Section 3. Preliminaries에서 DDPM에 대해 설명하지만 간략히 다루므로 DDPM에 대해 미리 공부하고 읽는 것이 좋습니다.</span>
-Paper - https://arxiv.org/pdf/2201.09865
-
+<span class="gray-medium">+ 해당 논문은 Section 3. Preliminaries에서 DDPM에 대해 설명하지만 간략히 다루므로 DDPM에 대해 미리 공부하고 읽는 것이 좋습니다.</span></br>
+Paper - https://arxiv.org/pdf/2201.09865</br>
 Github - https://github.com/andreas128/RePaint
 
 <div align="center"><img src="repaint.png" /></div>
